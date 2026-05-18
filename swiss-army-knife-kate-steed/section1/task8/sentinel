@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+
+# Tells the system the path to /task8, relative to the sentinel
+# This allows for the sentinel file to find the /task8 directory from anywhere (task 9)
+
+sentinel_path = os.path.dirname(os.path.abspath(__file__)) 
+
+# Search for /task8 and give success or error message
+if os.path.isdir(sentinel_path):
+    sys.stdout.write("Success\n")
+else:
+    sys.stdout.write("Error\n")
