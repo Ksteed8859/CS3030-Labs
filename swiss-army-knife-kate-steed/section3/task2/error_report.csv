@@ -1,0 +1,5 @@
+2026-06-15 08:14,WARNING,Failed login attempt from 192.168.1.15
+2026-06-15 08:15,ERROR,Database connection timeout on 172.16.0.42
+2026-06-15 08:22,WARNING,Unusual traffic detected from 45.33.12.99
+2026-06-15 08:25,ERROR,Disk space critical on partition /dev/sda1
+2026-06-15 08:35,EMERGENCY,System shutting down initiated by 192.168.1.200

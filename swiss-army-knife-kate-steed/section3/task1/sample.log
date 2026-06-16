@@ -1,0 +1,10 @@
+[2026-06-15 08:12] INFO: Server initialized successfully. IP: 10.0.0.5
+[2026-06-15 08:14] WARNING: Failed login attempt from 192.168.1.15
+[2026-06-15 08:15] ERROR: Database connection timeout on 172.16.0.42
+[2026-06-15 08:16] INFO: User 'admin' logged in from 203.0.113.88
+[2026-06-15 08:20] INFO: Daily backup completed. Transferred to 192.168.1.100
+[2026-06-15 08:22] WARNING: Unusual traffic detected from 45.33.12.99
+[2026-06-15 08:25] ERROR: Disk space critical on partition /dev/sda1
+[2026-06-15 08:28] INFO: Firewall rule updated for 10.0.0.15
+[2026-06-15 08:30] INFO: Scheduled reboot triggered by 127.0.0.1
+[2026-06-15 08:35] EMERGENCY: System shutting down initiated by 192.168.1.200
