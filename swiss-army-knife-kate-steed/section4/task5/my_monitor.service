@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitor Script Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/katelynsteed/CS3030/CS3030-Labs/swiss-army-knife-kate-steed/section4/task1/monitor.py
+Restart=always
+User=katelynsteed
+
+[Install]
+wantedBy=multi-user.target
